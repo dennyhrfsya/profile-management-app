@@ -1,0 +1,31 @@
+# Dependency directories
+/build/
+/.dart_tool/
+/.packages
+/.pub-cache/
+/.pub/
+
+# Android-specific
+/android/app/src/main/res/generated/
+/android/gen/
+/android/local.properties
+/android/key.properties
+/android/.gradle/
+
+# iOS-specific
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/ServiceDefinitions.json
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+
+# macOS-specific
+/macos/Flutter/ephemeral/
+
+# Windows-specific
+/windows/flutter/ephemeral/
+
+# IDE-specific
+.idea/
+.vscode/
+*.iml
