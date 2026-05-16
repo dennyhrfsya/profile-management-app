@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:profile_management_app/core/core.dart';
 import 'package:profile_management_app/presentation/auth/pages/login_page.dart';
 
@@ -62,8 +61,8 @@ class _OnboardingPageState extends State<OnboardingPage> {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: [
                     Text(
-                      "Code by",
-                      style: GoogleFonts.roboto(
+                      "From",
+                      style: TextStyle(
                         color: AppColors.white,
                         fontSize: 14,
                         fontWeight: FontWeight.w500,
@@ -71,7 +70,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                       ),
                     ),
 
-                    Container(
+                    SizedBox(
                       width: 40,
                       height: 40,
                       child: ClipRRect(
